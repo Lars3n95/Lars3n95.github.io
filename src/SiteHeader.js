@@ -35,13 +35,13 @@ class SiteHeader extends Component {
                     marginTop: mobile ? '2em' : '2em',
                     marginBottom: '0.5em'
                 }}>
-                <Label circular>Lars Feßen</Label>
+                <Label size='big'>Lars Feßen</Label>
             </Header>
 
             <br/>
 
             <a href="https://play.google.com/store/apps/dev?id=7164132871186129488">
-                <Button size='medium'>
+                <Button size='big'>
                     <Icon name='google play' />
                     Google Play
                 </Button>
@@ -69,14 +69,13 @@ class SiteHeader extends Component {
 
 const AppIcon = ({name}) => (
     <div>
-        <Image circular centered src={require('./resources/'+name)}/>
+        <Image centered src={require('./resources/'+name)}/>
     </div>
 )
 
 const AppLink = ({text, value}) => (
     <Statistic inverted>
-        <Statistic.Value>{value}</Statistic.Value>
-        <Statistic.Label>{text}</Statistic.Label>
+        <a href={value}>{text}</a>
         <br/>
     </Statistic>
 )

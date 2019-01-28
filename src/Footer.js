@@ -5,12 +5,11 @@ class Footer extends Component {
   
     render() {  
         return (    
-        <div class="ui inverted pink vertical footer segment">
+        <div class="ui vertical footer segment">
             <div class="ui center aligned container">
-                <h4 class="ui inverted header">&copy; Copyright 2017 | All rights reserved | Blahhh</h4>
-                <a href="https://www.facebook.com/"><i class="facebook square icon big"></i></a>
-                <a href="https://twitter.com/"><i class="twitter square icon big"></i></a>
-                <a href="https://www.linkedin.com/company/c"><i class="linkedin square icon big"></i></a>
+                <h4 class="ui inverted header">Impressum</h4>
+                <h4 class="ui inverted header">Datenschutzerklärung</h4>
+                <h4 class="ui inverted header">Informationen zu App-Verkäufen</h4>
             </div>
         </div>
         )
