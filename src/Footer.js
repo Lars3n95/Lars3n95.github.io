@@ -21,8 +21,7 @@ class Footer extends Component {
                             <Modal.Header>Impressum</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-                                    <p>We've found the following gravatar image associated with your e-mail address.</p>
-                                    <p>Is it okay to use this photo?</p>
+                                    <p>In Arbeit...</p>
                                 </Modal.Description>
                             </Modal.Content>
                         </Modal>
@@ -32,8 +31,7 @@ class Footer extends Component {
                             <Modal.Header>Datenschutzerklärung</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-                                    <p>We've found the following gravatar image associated with your e-mail address.</p>
-                                    <p>Is it okay to use this photo?</p>
+                                    <p>In Arbeit...</p>
                                 </Modal.Description>
                             </Modal.Content>
                         </Modal>
@@ -43,8 +41,7 @@ class Footer extends Component {
                             <Modal.Header>Informationen zu (In-)App-Verkäufen</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-                                    <p>We've found the following gravatar image associated with your e-mail address.</p>
-                                    <p>Is it okay to use this photo?</p>
+                                    <p>In Arbeit...</p>
                                 </Modal.Description>
                             </Modal.Content>
                         </Modal>
