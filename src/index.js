@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import style from './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App className='site' />, document.getElementById('root'));

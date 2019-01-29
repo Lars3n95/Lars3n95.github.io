@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SiteHeader from './SiteHeader';
+import Content from './Content';
 import Footer from './Footer';
 import {
   Responsive,
@@ -16,9 +16,9 @@ class MobileContainer extends Component {
                     inverted
                     textAlign='center'
                     className='site-segment'>
-                        <SiteHeader mobile/>
+                        <Content mobile/>
+                        <Footer mobile />
                 </Segment>
-                <Footer />
             </Responsive>
         )
     }

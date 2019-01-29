@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SiteHeader from './SiteHeader';
+import Content from './Content';
 import Footer from './Footer';
 import {
   Responsive,
@@ -16,9 +16,9 @@ class DesktopContainer extends Component {
                     inverted
                     textAlign='center'
                     className='site-segment'>
-                        <SiteHeader />
+                        <Content />
+                        <Footer />
                 </Segment>
-                <Footer />
             </Responsive>
         )
     }
