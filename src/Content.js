@@ -7,10 +7,7 @@ import {
   Icon,
   Image,
   Grid,
-  Statistic,
-  Label,
-  Message,
-  Progress
+  Divider
 } from 'semantic-ui-react';
 
 class Content extends Component {
@@ -30,17 +27,40 @@ class Content extends Component {
                 as='h1'
                 style={{
                     fontSize: mobile ? '2em' : '4em',
-                    marginTop: mobile ? '2em' : '2em',
+                    marginTop: mobile ? '2em' : '0em',
                     marginBottom: '0.5em'
                 }}>
-                <a href="https://play.google.com/store/apps/dev?id=7164132871186129488" target='_blank'>
-                    <Button size='big'>
-                        <Icon name='google play' />
-                        Google Play
-                    </Button>
-                </a>
+                <Grid columns='equal' stackable>
+                    <Grid.Column>
+                        <a href="mailto:kilaapps@gmail.com">
+                            <Button size='big'>
+                                <Icon name='mail' />
+                                E-Mail
+                            </Button>
+                        </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <a href="https://play.google.com/store/apps/dev?id=7164132871186129488" target='_blank' rel="noopener noreferrer">
+                            <Button size='big'>
+                                <Icon name='google play' />
+                                Google Play
+                            </Button>
+                        </a>
+                    </Grid.Column>
+                </Grid>
             </Header>
 
+            <div 
+                style={{
+                    marginTop: mobile ? '1em' : '3em',
+                }}>
+            </div>
+            <Divider/>
+            <div 
+                style={{
+                    marginTop: mobile ? '1em' : '3em',
+                }}>
+            </div>
 
             <Grid columns='equal' stackable divided style={{marginTop: '2em', marginBottom: '2em'}}>
                 <Grid.Column>
@@ -52,6 +72,7 @@ class Content extends Component {
                     <AppLink name='Notify me' link='https://play.google.com/store/apps/details?id=com.kila.addnotification.lars'/>
                 </Grid.Column>
             </Grid>
+            <Divider/>
         </Container>
         )
     }
@@ -73,10 +94,13 @@ const AppIcon = ({icon, link}) => (
 )
 
 const AppLink = ({name, link}) => (
-    <Statistic inverted>
-        <a href={link}>{name}</a>
+    <a href={link} target='_blank' rel="noopener noreferrer" style={{paddingTop: '5px'}}>
         <br/>
-    </Statistic>
+        <Button size='small'>
+            <Icon name='google play' />
+            {name}
+        </Button>
+    </a>
 )
   
 Content.propTypes = {
