@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.926a5e02.chunk.css",
-  "main.js": "/static/js/main.83df5508.chunk.js",
-  "main.js.map": "/static/js/main.83df5508.chunk.js.map",
-  "static/js/1.00616354.chunk.js": "/static/js/1.00616354.chunk.js",
-  "static/js/1.00616354.chunk.js.map": "/static/js/1.00616354.chunk.js.map",
+  "main.css": "/static/css/main.6f779a66.chunk.css",
+  "main.js": "/static/js/main.0506becf.chunk.js",
+  "main.js.map": "/static/js/main.0506becf.chunk.js.map",
+  "static/js/1.9f457b82.chunk.js": "/static/js/1.9f457b82.chunk.js",
+  "static/js/1.9f457b82.chunk.js.map": "/static/js/1.9f457b82.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/zahlenspiel.png": "/static/media/zahlenspiel.6644615e.png",
-  "static/css/main.926a5e02.chunk.css.map": "/static/css/main.926a5e02.chunk.css.map",
+  "static/css/main.6f779a66.chunk.css.map": "/static/css/main.6f779a66.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.10855c7bdef1bfb8f837207fd23e1726.js": "/precache-manifest.10855c7bdef1bfb8f837207fd23e1726.js",
+  "precache-manifest.60d7371d0c90282057e231928e5313f4.js": "/precache-manifest.60d7371d0c90282057e231928e5313f4.js",
   "service-worker.js": "/service-worker.js"
 }
