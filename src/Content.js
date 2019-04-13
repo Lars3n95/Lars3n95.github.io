@@ -7,8 +7,22 @@ import {
   Icon,
   Image,
   Grid,
-  Divider
+  Divider,
+  Card
 } from 'semantic-ui-react';
+import LocalizedStrings from 'react-localization';
+
+
+let strings = new LocalizedStrings({
+    en:{
+        numbersgame:"Numbers Game",
+        numbersgame2:"Numbers Game 2"
+    },
+    de: {
+        numbersgame:"Zahlenspiel",
+        numbersgame2:"Zahlenspiel 2"
+    }
+   });
 
 class Content extends Component {
     constructor(props) {
@@ -64,8 +78,16 @@ class Content extends Component {
 
             <Grid columns='equal' stackable divided style={{marginTop: '2em', marginBottom: '2em'}}>
                 <Grid.Column>
+                    <Card>
+                        <Card.Content>
+                        <Card.Header>{strings.numbersgame2}</Card.Header>
+                        <Card.Description>Coming soon</Card.Description>
+                        </Card.Content>
+                    </Card>
+                </Grid.Column>
+                <Grid.Column>
                     <AppIcon icon='zahlenspiel.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars'/>
-                    <AppLink name='Zahlenspiel' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars'/>
+                    <AppLink name={strings.numbersgame} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars'/>
                 </Grid.Column>
                 <Grid.Column>
                     <AppIcon icon='notifyme.png' link='https://play.google.com/store/apps/details?id=com.kila.addnotification.lars'/>
