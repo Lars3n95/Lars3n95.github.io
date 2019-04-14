@@ -8,6 +8,7 @@ import {
   Image,
   Grid,
   Divider,
+  Message,
   Card
 } from 'semantic-ui-react';
 import LocalizedStrings from 'react-localization';
@@ -58,6 +59,14 @@ class Content extends Component {
                             <Button size='big'>
                                 <Icon name='google play' />
                                 Google Play
+                            </Button>
+                        </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <a href="https://twitter.com/lars_kila" target='_blank' rel="noopener noreferrer">
+                            <Button size='big'>
+                                <Icon name='twitter' />
+                                Twitter
                             </Button>
                         </a>
                     </Grid.Column>
