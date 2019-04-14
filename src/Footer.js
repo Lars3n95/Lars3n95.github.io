@@ -13,7 +13,7 @@ let strings = new LocalizedStrings({
         purchasesheader:"",
         purchasetext:"",
         privacypolicy:"Privacy Policy",
-        privacypolicyheader:"Privacy Policy (from 14.03.2019)",
+        privacypolicyheader:"Privacy Policy (from 14.04.2019)",
         privacypolicy:"\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
@@ -33,6 +33,11 @@ The app is using Firebase. A software which helps to improve the app by sending 
 You can find the corresponding privacy policy of both services at: https://policies.google.com/privacy<br/> \
 By using the App you agree to this privacy policy. If you do not agree to this privacy policy please do not use the App<br/><br/> \
  \
+<b>UserReport</b><br/> \
+The app and the website use UserReport to collect feedback and feature/bug reports from users. You do not have to use this feature as you can always can contact me via e-mail.<br/> \
+The only information I get from UserReport is the feature/bug report, your name (you can choose any name you want) and your e-mail address.<br/> \
+UserReport might collect further data. You can find the privacy policy at: https://privacy.userreport.com/en-US/for-users/privacy-policy/<br/><br/> \
+\
 <b>Website</b><br/> \
 The website https://lars3n95.github.io/ can be used without providing any personal data. \
 The website itself does not collect personal data at any time.<br/> \
@@ -68,7 +73,7 @@ The Privacy Policy may change from time to time during the futures services upda
         purchasesheader:"Informationen zu (In-)App-Verkäufen",
         purchasetext:"Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
         privacypolicy:"Datenschutzerklärung",
-        privacypolicyheader:"Datenschutzerklärung (Stand 14.03.2019)",
+        privacypolicyheader:"Datenschutzerklärung (Stand 14.04.2019)",
         privacypolicy:"\
 <b>Geltungsbereich</b> \
 <div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps auf.</div><br/>\
@@ -98,6 +103,12 @@ Die Datenschutzerklärung beider Services erhalten Sie unter: https://policies.g
 Durch die Nutzung dieser App und ihrer Dienste bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
 Bitte nutzen Sie die App und ihre Dienste nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
  \
+<br/> \
+<b>UserReport</b> \
+<div>Die App und die Webseite nutzen UserReport, um Featurewünsche oder Fehlermeldungen zu sammeln. Sie müssen UserReport nicht nutzen, sondern können uns immer auch per E-Mail kontaktieren. \
+Die einzigen Informationen, die wir von UserReport erhalten, sind der Featurewunsch/die Fehlermeldung, Ihr eingegebener Name und Ihre E-Mail Adresse. \
+UserReport sammelt zusätzlich möglicherweise noch weitere Daten. Die Datenschutzerklärung von UserReport finden Sie hier: https://privacy.userreport.com/de-DE/for-users/privacy-policy/ </div> \
+\
 <br/> \
 <b>Webseite</b> \
 <div>Die Nutzung der Webseite https://lars3n95.github.io/ ist ohne Angabe personenbezogener Daten möglich. Von dem Anbieter selbst werden während der Nutzung keine personenbezogene Daten erhoben. \
@@ -136,7 +147,7 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
  \
 <br/> \
 <br/> \
-<div>Stand 14.03.2019</div> \
+<div>Stand 14.04.2019</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
    });
