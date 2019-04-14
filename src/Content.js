@@ -17,11 +17,13 @@ import LocalizedStrings from 'react-localization';
 let strings = new LocalizedStrings({
     en:{
         numbersgame:"Numbers Game",
-        numbersgame2:"Numbers Game 2"
+        numbersgame2:"Numbers Game 2",
+        givefeedback:"Give feedback"
     },
     de: {
         numbersgame:"Zahlenspiel",
-        numbersgame2:"Zahlenspiel 2"
+        numbersgame2:"Zahlenspiel 2",
+        givefeedback:"Feedback geben"
     }
    });
 
@@ -67,6 +69,14 @@ class Content extends Component {
                             <Button size='big'>
                                 <Icon name='twitter' />
                                 Twitter
+                            </Button>
+                        </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <a href="https://feedback.userreport.com/e391f3e4-d46d-4beb-b930-264b8a564697/ " target='_blank' rel="noopener noreferrer">
+                            <Button size='big'>
+                                <Icon name='chat' />
+                                {strings.givefeedback}
                             </Button>
                         </a>
                     </Grid.Column>
