@@ -9,6 +9,7 @@ import {
   Grid,
   Divider,
   Message,
+  Embed,
   Card
 } from 'semantic-ui-react';
 import LocalizedStrings from 'react-localization';
@@ -98,9 +99,10 @@ class Content extends Component {
             <Grid columns='equal' stackable divided style={{marginTop: '2em', marginBottom: '2em'}}>
                 <Grid.Column>
                     <Card>
+                        <Embed id='eTmWGOHRtw4' placeholder='/video_thumbnail_en.png' source='youtube' />
                         <Card.Content>
-                        <Card.Header>{strings.numbersgame2}</Card.Header>
-                        <Card.Description>Coming soon</Card.Description>
+                            <Card.Header>{strings.numbersgame2}</Card.Header>
+                            <Card.Description>Coming soon</Card.Description>
                         </Card.Content>
                     </Card>
                 </Grid.Column>
