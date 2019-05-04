@@ -18,12 +18,14 @@ import LocalizedStrings from 'react-localization';
 let strings = new LocalizedStrings({
     en:{
         numbersgame:"Numbers Game",
-        numbersgame2:"Numbers Game 2",
+        numbersgame2:"Numbers Game 2 (Beta)",
+        numbersgame2beta:"Beta available now",
         givefeedback:"Give feedback"
     },
     de: {
         numbersgame:"Zahlenspiel",
-        numbersgame2:"Zahlenspiel 2",
+        numbersgame2:"Zahlenspiel 2 (Beta)",
+        numbersgame2beta:"Beta jetzt verfügbar",
         givefeedback:"Feedback geben"
     }
    });
@@ -98,13 +100,9 @@ class Content extends Component {
 
             <Grid columns='equal' stackable divided style={{marginTop: '2em', marginBottom: '2em'}}>
                 <Grid.Column>
-                    <Card>
-                        <Embed id='eTmWGOHRtw4' placeholder='/video_thumbnail_en.png' source='youtube' />
-                        <Card.Content>
-                            <Card.Header>{strings.numbersgame2}</Card.Header>
-                            <Card.Description>Coming soon</Card.Description>
-                        </Card.Content>
-                    </Card>
+                    <Message floating icon><Icon name="bullhorn" size="tiny"/><Message.Header>{strings.numbersgame2beta}</Message.Header></Message>
+                    <AppIcon icon='zahlenspiel2.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars'/>
+                    <AppLink name={strings.numbersgame2} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars'/>
                 </Grid.Column>
                 <Grid.Column>
                     <AppIcon icon='zahlenspiel.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars'/>
