@@ -7,10 +7,7 @@ import {
   Icon,
   Image,
   Grid,
-  Divider,
-  Message,
-  Embed,
-  Card
+  Divider
 } from 'semantic-ui-react';
 import LocalizedStrings from 'react-localization';
 
@@ -18,14 +15,12 @@ import LocalizedStrings from 'react-localization';
 let strings = new LocalizedStrings({
     en:{
         numbersgame:"Numbers Game",
-        numbersgame2:"Numbers Game 2 (Beta)",
-        numbersgame2beta:"Beta available now",
+        numbersgame2:"Numbers Game 2",
         givefeedback:"Give feedback"
     },
     de: {
         numbersgame:"Zahlenspiel",
-        numbersgame2:"Zahlenspiel 2 (Beta)",
-        numbersgame2beta:"Beta jetzt verfügbar",
+        numbersgame2:"Zahlenspiel 2",
         givefeedback:"Feedback geben"
     }
    });
@@ -100,7 +95,6 @@ class Content extends Component {
 
             <Grid columns='equal' stackable divided style={{marginTop: '2em', marginBottom: '2em'}}>
                 <Grid.Column>
-                    <Message floating icon><Icon name="bullhorn" size="tiny"/><Message.Header>{strings.numbersgame2beta}</Message.Header></Message>
                     <AppIcon icon='zahlenspiel2.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars'/>
                     <AppLink name={strings.numbersgame2} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars'/>
                 </Grid.Column>

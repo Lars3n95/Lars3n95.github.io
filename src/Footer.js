@@ -12,7 +12,6 @@ let strings = new LocalizedStrings({
         abouttext:"The following information (Impressum) is required under German law.",
         purchasesheader:"",
         purchasetext:"",
-        privacypolicy:"Privacy Policy",
         privacypolicyheader:"Privacy Policy (from 14.04.2019)",
         privacypolicy:"\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
@@ -72,7 +71,6 @@ The Privacy Policy may change from time to time during the futures services upda
         abouttext:"Angaben gemäß §5 TMG",
         purchasesheader:"Informationen zu (In-)App-Verkäufen",
         purchasetext:"Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicy:"Datenschutzerklärung",
         privacypolicyheader:"Datenschutzerklärung (Stand 14.04.2019)",
         privacypolicy:"\
 <b>Geltungsbereich</b> \
