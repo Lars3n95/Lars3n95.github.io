@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import {
-  Grid,
-  Modal,
-  Image
+    Grid,
+    Modal,
+    Image
 } from 'semantic-ui-react';
 import LocalizedStrings from 'react-localization';
 
 let strings = new LocalizedStrings({
-    en:{
-        about:"About",
-        abouttext:"The following information (Impressum) is required under German law.",
-        purchasesheader:"",
-        purchasetext:"",
-        privacypolicyheader:"Privacy Policy (from 14.04.2019)",
-        privacypolicy:"\
+    en: {
+        about: "About",
+        abouttext: "The following information (Impressum) is required under German law.",
+        purchasesheader: "",
+        purchasetext: "",
+        privacypolicyheader: "Privacy Policy (from 14.04.2019)",
+        privacypolicy: "\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
 If you write an email to the developer all information you sent will be collected and saved for processing and further support reasons. The information will not be transferred to third parties.<br/> \
@@ -42,6 +42,9 @@ The website https://lars3n95.github.io/ can be used without providing any person
 The website itself does not collect personal data at any time.<br/> \
 The website is hosted at GitHub. By doing this it might be that personal data is collected by the service.<br/> \
 You can find the corresponding privacy policy of the service at: https://help.github.com/en/articles/github-privacy-statement<br/> \
+In addition a random unique id is generated from https://www.freevisitorcounters.com and saved as cookie to be able to see how many users visit the webiste. \
+The cookie/id will be deleted when the browser is closed. \
+<br/> \
 By using the website you agree to this privacy policy. If you do not agree to this privacy policy please do not use the website<br/><br/> \
  \
 <b>Permissions</b><br/> \
@@ -67,12 +70,12 @@ The basis for data processing is Art. 6 para. 1 lit. b GDPR, which permits the p
 The Privacy Policy may change from time to time during the futures services updates. We will always keep this Policy up to date.<br/><br/> "
     },
     de: {
-        about:"Impressum",
-        abouttext:"Angaben gemäß §5 TMG",
-        purchasesheader:"Informationen zu (In-)App-Verkäufen",
-        purchasetext:"Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicyheader:"Datenschutzerklärung (Stand 14.04.2019)",
-        privacypolicy:"\
+        about: "Impressum",
+        abouttext: "Angaben gemäß §5 TMG",
+        purchasesheader: "Informationen zu (In-)App-Verkäufen",
+        purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
+        privacypolicyheader: "Datenschutzerklärung (Stand 14.04.2019)",
+        privacypolicy: "\
 <b>Geltungsbereich</b> \
 <div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps auf.</div><br/>\
 \
@@ -113,6 +116,9 @@ UserReport sammelt zusätzlich möglicherweise noch weitere Daten. Die Datenschu
 Die Webseite wird bei GitHub gehostet. Dabei werden von diesem Service möglicherweise personenbezogene Daten erhoben. \
 Die Datenschutzerklärung des Services erhalten Sie unter: https://help.github.com/en/articles/github-privacy-statement \
 <br/> \
+Zusätzlich wird eine eindeutige zufällige ID von https://www.freevisitorcounters.com als Cookie gespeichert, um einsehen zu können, wie viele Nutzer die Webseite besuchen. \
+Die ID wird spätestens gelöscht, sobald Sie den Browser verlassen. \
+<br\> \
 Durch die Nutzung der Webseite bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
 Bitte nutzen Sie die Webseite nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
  \
@@ -148,44 +154,44 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
 <div>Stand 14.04.2019</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
-   });
+});
 
 class Footer extends Component {
     state = {}
-  
+
     render() {
         let mobile = this.props.mobile;
         let classNames = "ui vertical inverted site-footer";
-        if(mobile) {
+        if (mobile) {
             classNames = "ui vertical inverted segment";
         }
         return (
             <div className={classNames}>
                 <Grid columns='equal' stackable divided>
                     <Grid.Column>
-                        <Modal trigger={<h4 style={{textAlign: 'center', cursor: 'pointer'}}>{strings.about}</h4>}>
+                        <Modal trigger={<h4 style={{ textAlign: 'center', cursor: 'pointer' }}>{strings.about}</h4>}>
                             <Modal.Header>{strings.about}</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-<p>{strings.abouttext}</p>
-<Image src={require('./resources/impressum.png')}/>
+                                    <p>{strings.abouttext}</p>
+                                    <Image src={require('./resources/impressum.png')} />
                                 </Modal.Description>
                             </Modal.Content>
                         </Modal>
                     </Grid.Column>
                     <Grid.Column>
-                        <Modal trigger={<h4 style={{textAlign: 'center', cursor: 'pointer'}}>{strings.privacypolicyheader}</h4>}>
+                        <Modal trigger={<h4 style={{ textAlign: 'center', cursor: 'pointer' }}>{strings.privacypolicyheader}</h4>}>
                             <Modal.Header>{strings.privacypolicyheader}</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-<Image src={require('./resources/impressum.png')}/>
-<div dangerouslySetInnerHTML={{ __html: strings.privacypolicy }}></div>
+                                    <Image src={require('./resources/impressum.png')} />
+                                    <div dangerouslySetInnerHTML={{ __html: strings.privacypolicy }}></div>
                                 </Modal.Description>
                             </Modal.Content >
                         </Modal>
                     </Grid.Column>
                     <Grid.Column>
-                        <Modal trigger={<h4 style={{textAlign: 'center', cursor: 'pointer'}}>{strings.purchasesheader}</h4>}>
+                        <Modal trigger={<h4 style={{ textAlign: 'center', cursor: 'pointer' }}>{strings.purchasesheader}</h4>}>
                             <Modal.Header>{strings.purchasesheader}</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>

@@ -1,0 +1,8 @@
+Auf dem develop arbeiten
+Auf dem master wird nur durch npm deployt
+
+Code ändern
+Auf develop commit+push
+npm run-script deploy
+
+Counter URL: https://www.freevisitorcounters.com/en/home/stats/id/770723
