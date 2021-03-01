@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
         abouttext: "The following information (Impressum) is required under German law.",
         purchasesheader: "",
         purchasetext: "",
-        privacypolicyheader: "Privacy Policy (from 14.04.2019)",
+        privacypolicyheader: "Privacy Policy (from 01.03.2021)",
         privacypolicy: "\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
@@ -20,20 +20,23 @@ If you write an email to the developer all information you sent will be collecte
 We draw your attention to the fact that data transmission over the Internet (e.g. when communicating by e-mail) may involve gaps in security.<br/><br/> \
  \
 <b>Download and Purchase/In-App Purchase</b><br/> \
-In the app itself, no personal data is collected through a download/purchase/in-app purchase. \
+In the apps itself, no personal data is collected through a download/purchase/in-app purchase. \
 However, this data may be collected and processed by the provider of the trading platform and the responsible payment processor. \
-Please refer to the corresponding data protection declaration below: https://policies.google.com/privacy <br/> \
+Please refer to the corresponding data protection declaration below:<br/> \
+Android: https://policies.google.com/privacy <br/> \
+iOS: https://www.apple.com/legal/privacy/en-ww/ <br/> \
 We have no control over the collection of personal information from the above parties.<br/><br/> \
  \
 <b>App</b><br/> \
-You can use the app without providing any personal data. The app itself does not collect personal data at any time.<br/> \
+You can use the apps without providing any personal data. The apps itself do not collect personal data at any time.<br/> \
+Android: <br/>\
 The app offers the possibility to connect with the Google Play Games Services. By doing this it might be that personal data is collected by the services.<br/> \
 The app is using Firebase. A software which helps to improve the app by sending crash reports. The crash reports do not collect personal data.<br/> \
 You can find the corresponding privacy policy of both services at: https://policies.google.com/privacy<br/> \
-By using the App you agree to this privacy policy. If you do not agree to this privacy policy please do not use the App<br/><br/> \
+By using the Apps you agree to this privacy policy. If you do not agree to this privacy policy please do not use the Apps<br/><br/> \
  \
 <b>UserReport</b><br/> \
-The app and the website use UserReport to collect feedback and feature/bug reports from users. You do not have to use this feature as you can always can contact me via e-mail.<br/> \
+Some apps and the website use UserReport to collect feedback and feature/bug reports from users. You do not have to use this feature as you can always can contact me via e-mail.<br/> \
 The only information I get from UserReport is the feature/bug report, your name (you can choose any name you want) and your e-mail address.<br/> \
 UserReport might collect further data. You can find the privacy policy at: https://privacy.userreport.com/en-US/for-users/privacy-policy/<br/><br/> \
 \
@@ -48,6 +51,7 @@ The cookie/id will be deleted when the browser is closed. \
 By using the website you agree to this privacy policy. If you do not agree to this privacy policy please do not use the website<br/><br/> \
  \
 <b>Permissions</b><br/> \
+Android: <br/> \
 Hereinafter the user is informed about the necessary permissions and for what they are used:<br/> \
 <ul> \
     <li>Prevent phone from sleeping: Used by the Google Play Services</li> \
@@ -74,10 +78,10 @@ The Privacy Policy may change from time to time during the futures services upda
         abouttext: "Angaben gemäß §5 TMG",
         purchasesheader: "Informationen zu (In-)App-Verkäufen",
         purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicyheader: "Datenschutzerklärung (Stand 14.04.2019)",
+        privacypolicyheader: "Datenschutzerklärung (Stand 01.03.2021)",
         privacypolicy: "\
 <b>Geltungsbereich</b> \
-<div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps auf.</div><br/>\
+<div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps und Webseiten auf.</div><br/>\
 \
 <br/> \
 <b>Kontaktaufnahme</b> \
@@ -91,22 +95,25 @@ Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglic
 <b>Download und Kauf/In-App Kauf</b> \
 <div>In den Apps selbst werden keine personenbezogenen Daten durch einen Download/Kauf/In-App Kauf erhoben.  \
 Diese Daten werden jedoch möglicherweise vom Anbieter der Handelsplattform und dem zuständigen Zahlungsabwickler erhoben und verarbeitet. \
-Bitte beachten Sie die entsprechende Datenschutzerklärung unter: https://policies.google.com/privacy \
+Bitte beachten Sie die entsprechende Datenschutzerklärung unter: <br/> \
+Android: https://policies.google.com/privacy <br/> \
+iOS: https://www.apple.com/legal/privacy/de-ww/ <br/> \
 Wir haben keinen Einfluss auf die Erhebung personenbezogener Daten der oben genannten Parteien.</div> \
  \
 <br/> \
 <b>App</b> \
 <div>Die Nutzung der Apps ist ohne Angabe personenbezogener Daten möglich. Von dem Anbieter selbst werden während der Nutzung keine personenbezogene Daten erhoben. \
+Android: <br/>\
 Die App bietet die Möglichkeit sich mit den Google Play Spiele Services zu verbinden. Dabei werden von diesen Services möglicherweise personenbezogene Daten erhoben. \
 Um die App zu verbessern wird Firebase verwendet, womit Absturzberichte an den Entwickler gesendet werden. Diese enthalten keine personenbezogenen Daten. \
 Die Datenschutzerklärung beider Services erhalten Sie unter: https://policies.google.com/privacy \
 <br/> \
-Durch die Nutzung dieser App und ihrer Dienste bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
-Bitte nutzen Sie die App und ihre Dienste nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
+Durch die Nutzung dieser Apps und ihrer Dienste bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
+Bitte nutzen Sie die Apps und ihre Dienste nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
  \
 <br/> \
 <b>UserReport</b> \
-<div>Die App und die Webseite nutzen UserReport, um Featurewünsche oder Fehlermeldungen zu sammeln. Sie müssen UserReport nicht nutzen, sondern können uns immer auch per E-Mail kontaktieren. \
+<div>Manche Apps und die Webseite nutzen UserReport, um Featurewünsche oder Fehlermeldungen zu sammeln. Sie müssen UserReport nicht nutzen, sondern können uns immer auch per E-Mail kontaktieren. \
 Die einzigen Informationen, die wir von UserReport erhalten, sind der Featurewunsch/die Fehlermeldung, Ihr eingegebener Name und Ihre E-Mail Adresse. \
 UserReport sammelt zusätzlich möglicherweise noch weitere Daten. Die Datenschutzerklärung von UserReport finden Sie hier: https://privacy.userreport.com/de-DE/for-users/privacy-policy/ </div> \
 \
@@ -124,6 +131,7 @@ Bitte nutzen Sie die Webseite nicht, wenn Sie mit diesen Bestimmungen nicht einv
  \
 <br/> \
 <b>Berechtigungen</b> \
+Android: <br/> \
 <div>Im Folgenden werden die von den Apps geforderten Berechtigungen aufgelistet und ihr Verwendungszweck erläutert:</div> \
 <ul> \
     <li>Ruhezustand deaktivieren: Wird von den Google Play Services und Firebase Crash Reporting verwendet</li> \
@@ -151,7 +159,7 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
  \
 <br/> \
 <br/> \
-<div>Stand 14.04.2019</div> \
+<div>Stand 01.03.2021</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
 });
