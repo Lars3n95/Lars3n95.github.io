@@ -102,7 +102,7 @@ Wir haben keinen Einfluss auf die Erhebung personenbezogener Daten der oben gena
  \
 <br/> \
 <b>App</b> \
-<div>Die Nutzung der Apps ist ohne Angabe personenbezogener Daten möglich. Von dem Anbieter selbst werden während der Nutzung keine personenbezogene Daten erhoben. \
+<div>Die Nutzung der Apps ist ohne Angabe personenbezogener Daten möglich. Von dem Anbieter selbst werden während der Nutzung keine personenbezogene Daten erhoben. <br/> \
 Android: <br/>\
 Die App bietet die Möglichkeit sich mit den Google Play Spiele Services zu verbinden. Dabei werden von diesen Services möglicherweise personenbezogene Daten erhoben. \
 Um die App zu verbessern wird Firebase verwendet, womit Absturzberichte an den Entwickler gesendet werden. Diese enthalten keine personenbezogenen Daten. \
@@ -130,7 +130,7 @@ Durch die Nutzung der Webseite bringen Sie Ihr Einverständnis zu dieser Richtli
 Bitte nutzen Sie die Webseite nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
  \
 <br/> \
-<b>Berechtigungen</b> \
+<b>Berechtigungen</b> <br/> \
 Android: <br/> \
 <div>Im Folgenden werden die von den Apps geforderten Berechtigungen aufgelistet und ihr Verwendungszweck erläutert:</div> \
 <ul> \
