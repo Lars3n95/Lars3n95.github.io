@@ -7,7 +7,8 @@ import {
     Icon,
     Image,
     Grid,
-    Divider
+    Divider,
+    Message
 } from 'semantic-ui-react';
 import LocalizedStrings from 'react-localization';
 
@@ -139,6 +140,13 @@ class Content extends Component {
                     <Grid.Column>
                         <AppIcon icon='zahlenspiel2.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
                         <AppLink name={strings.numbersgame2} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
+                        <Message icon>
+                            <Icon name='apple' />
+                            <Message.Content>
+                                <Message.Header>Test iOS-Beta</Message.Header>
+                            If you want to test Numbers Game 2, are from the US or EU, and have iOS 14+ please write me an email.
+                            </Message.Content>
+                        </Message>
                     </Grid.Column>
                     <Grid.Column>
                         <AppIcon icon='zahlenspiel.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars' />
@@ -175,6 +183,16 @@ const AppLink = ({ name, link }) => (
         <br />
         <Button size='small'>
             <Icon name='google play' />
+            {name}
+        </Button>
+    </a>
+)
+
+const IosAppLink = ({ name, link }) => (
+    <a href={link} target='_blank' rel="noopener noreferrer" style={{ paddingTop: '5px' }}>
+        <br />
+        <Button size='small'>
+            <Icon name='apple' />
             {name}
         </Button>
     </a>
