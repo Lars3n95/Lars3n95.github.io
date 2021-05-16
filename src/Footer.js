@@ -125,7 +125,7 @@ Die Datenschutzerklärung des Services erhalten Sie unter: https://help.github.c
 <br/> \
 Zusätzlich wird eine eindeutige zufällige ID von https://www.freevisitorcounters.com als Cookie gespeichert, um einsehen zu können, wie viele Nutzer die Webseite besuchen. \
 Die ID wird spätestens gelöscht, sobald Sie den Browser verlassen. \
-<br\> \
+<br/> \
 Durch die Nutzung der Webseite bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
 Bitte nutzen Sie die Webseite nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
  \
