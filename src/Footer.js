@@ -36,15 +36,19 @@ The only data Numbers Game 2 collects and sends to Amazon Web Services (AWS) is 
 That data is used to better balance the game and does not contain any personal information. \
 By using the Apps you agree to this privacy policy. If you do not agree to this privacy policy please do not use the Apps<br/><br/> \
 \
-<b>Google AdMob</b><br/> \
+<b>Google AdMob - Ads</b><br/> \
 <div>In some apps it is possible to watch ads in order to receive in-game rewards. For this we use Google AdMob.<br/> \
 Google AdMob is an online advertising program from Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043.<br/> \
 Before you decide to watch the ads, you must agree once that you are at least 18 years old and that personal data may be collected and processed by Google LLC. for this purpose. \
-For this purpose, Google stores cookies or other identifiers and collects and processes, among other things, data about the use of the app and the device, the IP address, the device ID and data about previous ad interactions. \
+For this purpose, Google stores cookies or other identifiers and collects and processes, among other things, data about the use of the app and the device, the IP address, geolocation, the device ID and data about previous ad interactions to show and improve personalized ads. \
+<br/><br/> \
+Disable personalized advertising<br/> \
+In the settings of the respective app you can disable personalized ads. \
 If you have deactivated personalized ads in the settings of the respective app, Google LLC. only stores cookies or other identifiers for capping the advertising frequency (frequency capping), aggregated ad reports and for combating fraud and abuse.<br/> \
 In California, the European Economic Area, and the United Kingdom, only non-personalized ads are shown, regardless of the setting, and thereby only cookies or other identifiers are used for the purposes just mentioned. \
 You can also generally disable personalized ads in your device settings. To do so, click on \"Google\" -> \"Ads\" -> \"Opt out of Ads Personalization\" in the settings.<br/> \
-More details on the use of personal data by Google LLC. can be found in the privacy policy at <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> and specifically for the area of advertising at <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>.</div><br/> \
+Under the \"Google\" settings you can also get more information about what information Google LLC. has collected from you. \
+More details on the use of personal data by Google LLC. and on the possibilities of revocation can also be found in the privacy policy at <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> and specifically for the area of advertising at <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>.</div><br/> \
 \
 <b>UserReport</b><br/> \
 Some apps and the website use UserReport to collect feedback and feature/bug reports from users. You do not have to use this feature as you can always can contact me via e-mail.<br/> \
@@ -124,15 +128,19 @@ Durch die Nutzung dieser Apps und ihrer Dienste bringen Sie Ihr Einverständnis 
 Bitte nutzen Sie die Apps und ihre Dienste nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
 \
 <br/> \
-<b>Google AdMob</b> \
+<b>Google AdMob - Werbung</b> \
 <div>In manchen Apps ist es möglich, Werbung zu schauen, um dafür eine Ingame-Belohnung zu erhalten. Dafür nutzen wir Google AdMob.<br/> \
 Google AdMob ist ein Online-Werbeprogramm von Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043.<br/> \
 Bevor Sie die Werbung anschauen, müssen Sie einmalig zustimmen, dass dafür von Google LLC. ggf. personenbezogene Daten erfasst und verarbeitet werden. \
-Dafür speichert Google Cookies oder andere Kennungen und sammelt und verarbeitet unter anderem Daten über die Verwendung der App und des Gerätes, die IP-Adresse, die Geräte-ID und Daten zu vorherigen Anzeige-Interaktionen. \
+Dafür speichert Google Cookies oder andere Kennungen und sammelt und verarbeitet unter anderem Daten über die Verwendung der App und des Gerätes, die IP-Adresse, Geo-Informationen, die Geräte-ID und Daten zu vorherigen Anzeige-Interaktionen, um personaliserte Werbung zu zeigen und zu verbessern. \
+<br/><br/> \
+Personalisierte Werbung deaktivieren<br/> \
+In den Einstellungen der jeweiligen App können Sie die personalisierte Werbung deaktivieren. \
 Haben Sie in den Einstellungen der jeweiligen App die personalisierte Werbung deaktiviert, speichert Google LLC. ausschließlich Cookies oder andere Kennungen für die Deckelung der Werbe-Frequenz (Frequency Capping), aggregierte Anzeigen-Reports und zur Bekämpfung von Betrug und Missbrauch.<br/> \
 In Kalifornien, dem Europäischen Wirtschaftsraum und dem Vereinigten Königreich wird ausschließlich, unabhängig von der Einstellung, nicht personalisierte Werbung gezeigt und dadurch ausschließlich für die soeben genannten Zwecke Cookies oder andere Kennungen verwendet. \
 Sie können in Ihren Geräte-Einstellungen auch generell die personalisierte Werbung deaktivieren. Klicken Sie dazu in den Einstellungen auf \"Google\" -> \"Anzeigen\" -> \"Personalisierte Werbung deaktivieren\".<br/> \
-Genauere Details zur Verwendung personenbezogener Daten von Google LLC. finden Sie in der Datenschutzerklärung unter <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> und konkret für den Bereich Werbung unter <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>. </div> \
+Unter den \"Google\" Einstellungen können Sie auch weitere Informationen dazu erhalten welche Informationen Google LLC. über Sie gespeichert hat. \
+Genauere Details zur Verwendung personenbezogener Daten von Google LLC. und zur Möglichkeit des Widerrufs finden Sie auch in der Datenschutzerklärung unter <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> und konkret für den Bereich Werbung unter <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>. </div> \
 \
 <br/> \
 <b>UserReport</b> \
