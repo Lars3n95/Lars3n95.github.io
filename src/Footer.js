@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
         abouttext: "The following information (Impressum) is required under German law.",
         purchasesheader: "",
         purchasetext: "",
-        privacypolicyheader: "Privacy Policy (from 21.09.2021)",
+        privacypolicyheader: "Privacy Policy (from 09.04.2022)",
         privacypolicy: "\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
@@ -33,7 +33,8 @@ Android: <br/>\
 The app offers the possibility to connect with the Google Play Games Services. By doing this it might be that personal data is collected by the services.<br/> \
 You can find the corresponding privacy policy at: <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a><br/> \
 The only data Numbers Game 2 collects and sends to Amazon Web Services (AWS) is the information what level you solved and how many coins you had in that moment. \
-That data is used to better balance the game and does not contain any personal information. \
+The only data Word Game collects and sends to Amazon Web Services (AWS) after solving a word of the day is the information how many days the app is installed and how many coins you have at that moment. \
+That data is used to better balance the games and does not contain any personal information. \
 By using the Apps you agree to this privacy policy. If you do not agree to this privacy policy please do not use the Apps<br/><br/> \
 \
 <b>Google AdMob - Ads</b><br/> \
@@ -111,7 +112,7 @@ The Privacy Policy may change from time to time during the futures services upda
         abouttext: "Angaben gemäß §5 TMG",
         purchasesheader: "Informationen zu (In-)App-Verkäufen",
         purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicyheader: "Datenschutzerklärung (Stand 21.09.2021)",
+        privacypolicyheader: "Datenschutzerklärung (Stand 09.04.2022)",
         privacypolicy: "\
 <b>Geltungsbereich</b> \
 <div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps und Webseiten auf.</div><br/>\
@@ -140,7 +141,8 @@ Android: <br/>\
 Die App bietet die Möglichkeit sich mit den Google Play Spiele Services zu verbinden. Dabei werden von diesen Services möglicherweise personenbezogene Daten erhoben. \
 Die Datenschutzerklärung erhalten Sie unter: <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> \
 Die einzigen Daten, die in der App Zahlenspiel 2 gesammelt und an Amazon Web Services (AWS) gesendet werden, ist die Information, welches Level Sie gelöst haben und wie viele Münzen Sie in dem Moment besaßen. \
-Diese Informationen werden dafür benutzt, das Spiel zu optimieren und beinhalten keinerlei personenbezogene Daten. \
+Die einzigen Daten, die in der App Wortspiel gesammelt und an Amazon Web Services (AWS) gesendet werden wenn ein Wort des Tages gelöst wird, ist die Information, wie lange die App bereits installiert ist und wie viele Münzen Sie in dem Moment besaßen. \
+Diese Informationen werden dafür benutzt, die Spiele zu optimieren und beinhalten keinerlei personenbezogene Daten. \
 <br/> \
 Durch die Nutzung dieser Apps und ihrer Dienste bringen Sie Ihr Einverständnis zu dieser Richtlinie und der Verarbeitung Ihrer Daten gemäß dieser Richtlinie, insbesondere Ihrer personenbezogenen Daten, zum Ausdruck.  \
 Bitte nutzen Sie die Apps und ihre Dienste nicht, wenn Sie mit diesen Bestimmungen nicht einverstanden sind.</div> \
@@ -226,7 +228,7 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
  \
 <br/> \
 <br/> \
-<div>Stand 21.09.2021</div> \
+<div>Stand 09.04.2022</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
 });
