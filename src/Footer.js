@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
         abouttext: "The following information (Impressum) is required under German law.",
         purchasesheader: "",
         purchasetext: "",
-        privacypolicyheader: "Privacy Policy (from 09.04.2022)",
+        privacypolicyheader: "Privacy Policy (from 04.07.2022)",
         privacypolicy: "\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
@@ -60,6 +60,7 @@ For non-personalized ads Google AdMob only stores cookies or other identifiers f
 </ul> \
 Google AdMob is only initialized after restarting the app when an ad has been viewed for the first time. \
 Only then can the mentioned data be collected by Google AdMob. \
+Accordingly, this also means that Google AdMob does not collect this data if you never watch ads. \
 <br/><br/> \
 Disable personalized advertising<br/> \
 In the settings of the respective app you can disable personalized ads. \
@@ -112,7 +113,7 @@ The Privacy Policy may change from time to time during the futures services upda
         abouttext: "Angaben gemäß §5 TMG",
         purchasesheader: "Informationen zu (In-)App-Verkäufen",
         purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicyheader: "Datenschutzerklärung (Stand 09.04.2022)",
+        privacypolicyheader: "Datenschutzerklärung (Stand 04.07.2022)",
         privacypolicy: "\
 <b>Geltungsbereich</b> \
 <div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps und Webseiten auf.</div><br/>\
@@ -171,6 +172,7 @@ Für nicht personalisierte Werbung speichert und verarbeitet Google AdMob aussch
 </ul>\
 Google AdMob wird nach einem Neustart der App immer erst initialisiert, wenn das erste Mal eine Werbung geschaut wurde. \
 Erst dann können also auch die genannten Daten von Google AdMob erhoben werden. \
+Das bedeutet dementsprechend auch, dass Google AdMob diese Daten nicht sammelt, wenn nie Werbung geschaut wird. \
 <br/><br/> \
 Personalisierte Werbung deaktivieren<br/> \
 In den Einstellungen der jeweiligen App können Sie die personalisierte Werbung deaktivieren. \
@@ -228,7 +230,7 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
  \
 <br/> \
 <br/> \
-<div>Stand 09.04.2022</div> \
+<div>Stand 04.07.2022</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
 });

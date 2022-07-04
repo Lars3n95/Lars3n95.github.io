@@ -16,6 +16,7 @@ let strings = new LocalizedStrings({
     en: {
         numbersgame: "Numbers Game",
         numbersgame2: "Numbers Game 2",
+        wordgame: "Word Game",
         givefeedback: "Give feedback",
         supportme: "Support me",
         supportmetext: "Support me",
@@ -26,6 +27,7 @@ let strings = new LocalizedStrings({
     de: {
         numbersgame: "Zahlenspiel",
         numbersgame2: "Zahlenspiel 2",
+        wordgame: "Wortspiel",
         givefeedback: "Feedback geben",
         supportme: "Unterstützen",
         supportmetext: "In dem du meine Apps bewertest, im besten Fall natürlich mit 5 Sternen, kannst du unterstützen. Für eine finanzielle All diese Links leiten dich zum Google Play Store zu Apps mit drei verschiedenen Preisen weiter. Diese Apps haben keinerlei Funktionalität, sie dienen ausschließlich dazu, mir eine Kleinigkeit zu spenden und mich bei der Entwicklung zu unterstützen.",
@@ -136,6 +138,10 @@ class Content extends Component {
                 </div>
 
                 <Grid columns='equal' stackable divided style={{ marginTop: '2em', marginBottom: '2em' }}>
+                    <Grid.Column>
+                        <AppIcon icon='wordgame.png' link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
+                        <AppLink name={strings.wordgame} link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
+                    </Grid.Column>
                     <Grid.Column>
                         <AppIcon icon='zahlenspiel2.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
                         <AppLink name={strings.numbersgame2} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
