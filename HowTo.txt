@@ -2,7 +2,8 @@ Auf dem develop arbeiten
 Auf dem master wird nur durch npm deployt
 
 Code ändern
-Auf develop commit+push (mit token als passwort)
+Auf develop commit+push (kilaaps, mit token als passwort)
 npm run-script deploy
+app-ads.txt in master hochladen
 
 Counter URL: https://www.freevisitorcounters.com/en/home/stats/id/770723
