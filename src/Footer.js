@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
         abouttext: "The following information (Impressum) is required under German law.",
         purchasesheader: "",
         purchasetext: "",
-        privacypolicyheader: "Privacy Policy (from 04.07.2022)",
+        privacypolicyheader: "Privacy Policy (from 19.11.2023)",
         privacypolicy: "\
 <div>This Privacy Policy informs the user about what data is collected, why it is collected, and what is done with it.</div><br/> \
 <b>About</b><br/> \
@@ -40,33 +40,10 @@ By using the Apps you agree to this privacy policy. If you do not agree to this 
 <b>Google AdMob - Ads</b><br/> \
 <div>In some apps it is possible to watch ads in order to receive in-game rewards. For this we use Google AdMob.<br/> \
 Google AdMob is an online advertising program from Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043.<br/> \
-Before you decide to watch the ads, you must agree once that you are at least 18 years old and that personal data may be collected and processed by Google LLC. for this purpose. \
-We have to differentiate between personalized and non-personalized ads. For personalized ads the following data might be collected by Google AdMob:<br/> \
-<ul> \
-    <li>IP address, which may be used to estimate the general location of a device.</li> \
-    <li>Non-user related crash logs, which may be used to diagnose problems and improve the SDK. Diagnostic information may also be used for advertising and analytics purposes.</li> \
-    <li>User-associated performance data such as app launch time, hang rate, or energy usage, which may be used to evaluate user behavior, understand the effectiveness of existing product features, and plan new features. Performance data may also be used for displaying ads, including sharing with other entities that display ads.</li> \
-    <li>A Device ID such as the device\'s advertising identifier or other app-bounded device identifiers, which may be used for the purpose of third-party advertising and analytics.</li> \
-    <li>Advertising data, such as advertisements the user has seen, may be used to power analytics and advertising features.</li> \
-    <li>Other user product interactions like app launch taps, and interaction information, like video views, may be used to improve advertising performance.</li> \
-</ul> \
-For this purpose, Google stores cookies or other identifiers and collects and processes, among other things, data about the use of the app and the device, the IP address, geolocation, the device ID and data about previous ad interactions to show and improve personalized ads. \
+Before you decide to watch the ads, you must agree that (personal) data may be collected and processed for this purpose. \
+We use the Google Consent Management Platform so that you can set this. There you can choose for which purposes and which vendors may process the data. Depending on which settings are made, it may not be possible to display ads. \
+You can change your ad consent at any time in the settings of the specific app. \
 <br/><br/> \
-For non-personalized ads Google AdMob only stores cookies or other identifiers for:<br/> \
-<ul> \
-    <li>capping the advertising frequency (frequency capping)</li> \
-    <li>aggregated ad reports</li> \
-    <li>combating fraud and abuse</li> \
-</ul> \
-Google AdMob is only initialized after restarting the app when an ad has been viewed for the first time. \
-Only then can the mentioned data be collected by Google AdMob. \
-Accordingly, this also means that Google AdMob does not collect this data if you never watch ads. \
-<br/><br/> \
-Disable personalized advertising<br/> \
-In the settings of the respective app you can disable personalized ads. \
-If you have deactivated personalized ads in the settings of the respective app, Google LLC. only stores cookies or other identifiers for capping the advertising frequency (frequency capping), aggregated ad reports and for combating fraud and abuse, as just described.<br/> \
-In California, the European Economic Area, and the United Kingdom, only non-personalized ads are shown, regardless of the setting, and thereby only cookies or other identifiers are used for the purposes just mentioned. \
-You can also generally disable personalized ads in your device settings. To do so, click on \"Google\" -> \"Ads\" -> \"Opt out of Ads Personalization\" in the settings.<br/> \
 Under the \"Google\" settings you can also get more information about what information Google LLC. has collected from you. \
 More details on the use of personal data by Google LLC. and on the possibilities of revocation can also be found in the privacy policy at <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> and specifically for the area of advertising at <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>.</div><br/> \
 \
@@ -113,7 +90,7 @@ The Privacy Policy may change from time to time during the futures services upda
         abouttext: "Angaben gemäß §5 TMG",
         purchasesheader: "Informationen zu (In-)App-Verkäufen",
         purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
-        privacypolicyheader: "Datenschutzerklärung (Stand 04.07.2022)",
+        privacypolicyheader: "Datenschutzerklärung (Stand 19.11.2023)",
         privacypolicy: "\
 <b>Geltungsbereich</b> \
 <div>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten in von dem Anbieter (Lars Feßen-Fallsehr) entwickelten Apps und Webseiten auf.</div><br/>\
@@ -152,33 +129,10 @@ Bitte nutzen Sie die Apps und ihre Dienste nicht, wenn Sie mit diesen Bestimmung
 <b>Google AdMob - Werbung</b> \
 <div>In manchen Apps ist es möglich, Werbung zu schauen, um dafür eine Ingame-Belohnung zu erhalten. Dafür nutzen wir Google AdMob.<br/> \
 Google AdMob ist ein Online-Werbeprogramm von Google LLC., 1600 Amphitheatre Parkway, Mountain View, CA 94043.<br/> \
-Bevor Sie die Werbung anschauen, müssen Sie einmalig zustimmen, dass dafür von Google LLC. ggf. personenbezogene Daten erfasst und verarbeitet werden. \
-Dabei müssen wir zwischen personalisierter und nicht personalisierter Werbung unterscheiden. Für personalisierte Werbung werden ggf. folgenden Daten von Google AdMob erhoben und verarbeitet: \
-<ul> \
-    <li>IP-Adresse, die verwendet werden kann, um den allgemeinen Standort eines Geräts zu bestimmen.</li> \
-    <li>Nicht-benutzerbezogene Absturzprotokolle, die zur Diagnose von Problemen und zur Verbesserung des SDK verwendet werden können. Diagnoseinformationen können auch für Werbe- und Analysezwecke verwendet werden.</li> \
-    <li>Benutzerbezogene Leistungsdaten, wie z. B. die Startzeit der App, die Aufhängungsrate oder der Energieverbrauch, die verwendet werden können, um das Nutzerverhalten zu bewerten, die Effektivität bestehender Produktfunktionen zu verstehen und neue Funktionen zu planen. Leistungsdaten können auch für die Anzeige von Werbung verwendet werden, einschließlich der Weitergabe an andere Unternehmen, die Werbung anzeigen.</li> \
-    <li>Eine Geräte-ID, wie z. B. die Werbekennung des Geräts oder andere App-gebundene Gerätekennungen, die zum Zwecke der Werbung und Analyse durch Dritte verwendet werden können.</li> \
-    <li>Werbedaten, wie z.B. Werbung, die der Nutzer gesehen hat, können für Analyse- und Werbefunktionen verwendet werden.</li> \
-    <li>Andere Produktinteraktionen des Nutzers, wie z.B. das Starten der App, und Interaktionsinformationen, wie z.B. das Ansehen von Videos, können zur Verbesserung der Werbeleistung verwendet werden.</li> \
-</ul> \
-Dafür speichert Google Cookies oder andere Kennungen und sammelt und verarbeitet unter anderem Daten über die Verwendung der App und des Gerätes, die IP-Adresse, Geo-Informationen, die Geräte-ID und Daten zu vorherigen Anzeige-Interaktionen, um personaliserte Werbung zu zeigen und zu verbessern. \
+Bevor Sie die Werbung anschauen, müssen Sie zustimmen, dass dafür ggf. personenbezogene Daten erfasst und verarbeitet werden. \
+Wir nutzen die Google Consent Management Platform, womit Sie diese Einstellungen treffen können. Dort können Sie auswählen für welche Zwecke und welche Anbieter die Daten verarbeiten dürfen. Je nachdem welche Einstellungen getroffen werden, kann es sein, dass trotzdem keine Werbung angezeigt werden kann. \
+In den Einstellungen der jeweiligen App können Sie Ihre Werbungs-Zustimmung jederzeit anpassen. \
 <br/><br/> \
-Für nicht personalisierte Werbung speichert und verarbeitet Google AdMob ausschließlich Cookies oder andere Kennung, für:\
-<ul>\
-    <li>die Deckelung der Werbe-Frequenz (Frequency Capping)</li>\
-    <li>aggregierte Anzeigen-Reports</li>\
-    <li>die Bekämpfung von Betrug und Missbrauch</li>\
-</ul>\
-Google AdMob wird nach einem Neustart der App immer erst initialisiert, wenn das erste Mal eine Werbung geschaut wurde. \
-Erst dann können also auch die genannten Daten von Google AdMob erhoben werden. \
-Das bedeutet dementsprechend auch, dass Google AdMob diese Daten nicht sammelt, wenn nie Werbung geschaut wird. \
-<br/><br/> \
-Personalisierte Werbung deaktivieren<br/> \
-In den Einstellungen der jeweiligen App können Sie die personalisierte Werbung deaktivieren. \
-Haben Sie in den Einstellungen der jeweiligen App die personalisierte Werbung deaktiviert, speichert, wie eben beschrieben, Google LLC. ausschließlich Cookies oder andere Kennungen für die Deckelung der Werbe-Frequenz (Frequency Capping), aggregierte Anzeigen-Reports und zur Bekämpfung von Betrug und Missbrauch.<br/> \
-In Kalifornien, dem Europäischen Wirtschaftsraum und dem Vereinigten Königreich wird ausschließlich, unabhängig von der Einstellung, nicht personalisierte Werbung gezeigt und dadurch ausschließlich für die soeben genannten Zwecke Cookies oder andere Kennungen verwendet. \
-Sie können in Ihren Geräte-Einstellungen auch generell die personalisierte Werbung deaktivieren. Klicken Sie dazu in den Einstellungen auf \"Google\" -> \"Anzeigen\" -> \"Personalisierte Werbung deaktivieren\".<br/> \
 Unter den \"Google\" Einstellungen können Sie auch weitere Informationen dazu erhalten welche Informationen Google LLC. über Sie gespeichert hat. \
 Genauere Details zur Verwendung personenbezogener Daten von Google LLC. und zur Möglichkeit des Widerrufs finden Sie auch in der Datenschutzerklärung unter <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> und konkret für den Bereich Werbung unter <a href=\"https://policies.google.com/technologies/ads\">https://policies.google.com/technologies/ads</a>. </div> \
 \
@@ -230,7 +184,7 @@ Von uns gespeicherte Daten werden, sollten sie für ihren Verwendungszweck nicht
  \
 <br/> \
 <br/> \
-<div>Stand 04.07.2022</div> \
+<div>Stand 19.11.2023</div> \
 <div>Die Datenschutzerklärung kann sich von Zeit zu Zeit ändern. Sie wird hier auf der Webseite aktuell gehalten.</div> "
     }
 });
