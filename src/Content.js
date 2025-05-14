@@ -62,31 +62,15 @@ class Content extends Component {
                             <a href="mailto:kilaapps@gmail.com">
                                 <Button size='big'>
                                     <Icon name='mail' />
-                                E-Mail
-                            </Button>
+                                    E-Mail
+                                </Button>
                             </a>
                         </Grid.Column>
                         <Grid.Column>
                             <a href="https://play.google.com/store/apps/dev?id=7164132871186129488" target='_blank' rel="noopener noreferrer">
                                 <Button size='big'>
                                     <Icon name='google play' />
-                                Google Play
-                            </Button>
-                            </a>
-                        </Grid.Column>
-                        <Grid.Column>
-                            <a href="https://twitter.com/lars_kila" target='_blank' rel="noopener noreferrer">
-                                <Button size='big'>
-                                    <Icon name='twitter' />
-                                Twitter
-                            </Button>
-                            </a>
-                        </Grid.Column>
-                        <Grid.Column>
-                            <a href="https://feedback.userreport.com/e391f3e4-d46d-4beb-b930-264b8a564697/ " target='_blank' rel="noopener noreferrer">
-                                <Button size='big'>
-                                    <Icon name='chat' />
-                                    {strings.givefeedback}
+                                    Google Play
                                 </Button>
                             </a>
                         </Grid.Column>
@@ -139,14 +123,14 @@ class Content extends Component {
 
                 <Grid columns='equal' stackable divided style={{ marginTop: '2em', marginBottom: '2em' }}>
                     <Grid.Column>
-                        <AppIcon icon='wordgame.png' link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
-                        <AppLink name={strings.wordgame} link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
-                    </Grid.Column>
-                    <Grid.Column>
                         <AppIcon icon='zahlenspiel2.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
                         <AppLink name={strings.numbersgame2} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspiel2.lars' />
                         <br />
                         <IosAppLink name={strings.numbersgame2} link='https://apps.apple.com/de/app/numbers-game-2/id1556116590' />
+                    </Grid.Column>
+                    <Grid.Column>
+                        <AppIcon icon='wordgame.png' link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
+                        <AppLink name={strings.wordgame} link='https://play.google.com/store/apps/details?id=com.kila.wordgame.lars' />
                     </Grid.Column>
                     <Grid.Column>
                         <AppIcon icon='zahlenspiel.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars' />
