@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aa184166612b130d3b40",
+    "revision": "a77c08ea7e8862d2c0eb",
     "url": "/static/css/main.bd1d5722.chunk.css"
   },
   {
-    "revision": "aa184166612b130d3b40",
-    "url": "/static/js/main.aa184166.chunk.js"
+    "revision": "a77c08ea7e8862d2c0eb",
+    "url": "/static/js/main.a77c08ea.chunk.js"
   },
   {
     "revision": "5fb49f28a85cb293181b",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/zahlenspiel2.0131ee57.png"
   },
   {
-    "revision": "9d0216671efce007293954dcf6cd7797",
+    "revision": "6a642c748963f2b4f4112b01100a3689",
     "url": "/index.html"
   }
 ];
