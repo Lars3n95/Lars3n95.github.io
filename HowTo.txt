@@ -3,7 +3,10 @@ Auf dem master wird nur durch npm deployt
 
 Code ändern
 Auf develop commit+push (kilaaps, mit token als passwort)
-npm run-script deploy
+npm run-script deploy (deploy wird fehlschlagen)
+git checkout master und /build nach root kopieren und alte Dateien ersetzen. git commit & push
 app-ads.txt in master hochladen
 
 Counter URL: https://www.freevisitorcounters.com/en/home/stats/id/770723
+
+google.com, pub-2536361158566265, DIRECT, f08c47fec0942fa0

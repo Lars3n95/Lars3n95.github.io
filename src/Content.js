@@ -74,38 +74,6 @@ class Content extends Component {
                                 </Button>
                             </a>
                         </Grid.Column>
-                        {/* <Grid.Column>
-                            <Modal trigger={<Button size='big'>
-                                <Icon name='chat' />
-                                {strings.givefeedback}
-                            </Button>}>
-                                <Modal.Header>{strings.supportme}</Modal.Header>
-                                <Modal.Content>
-                                    <Modal.Description>
-                                        <h2>{strings.supportme}</h2>
-                                        <p>{strings.supportmetext}</p>
-                                        <a href="https://play.google.com/store/apps/details?id=com.kila.donationappsmall.lars" target='_blank' rel="noopener noreferrer">
-                                            <Button size='big'>
-                                                <Icon name='google play' />
-                                                {strings.supportmesmall}
-                                            </Button>
-                                        </a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.kila.donationappmedium.lars" target='_blank' rel="noopener noreferrer">
-                                            <Button size='big'>
-                                                <Icon name='google play' />
-                                                {strings.supportmemedium}
-                                            </Button>
-                                        </a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.kila.donationapplarge.lars" target='_blank' rel="noopener noreferrer">
-                                            <Button size='big'>
-                                                <Icon name='google play' />
-                                                {strings.supportmebig}
-                                            </Button>
-                                        </a>
-                                    </Modal.Description>
-                                </Modal.Content>
-                            </Modal>
-                        </Grid.Column> */}
                     </Grid>
                 </Header>
 
@@ -135,10 +103,6 @@ class Content extends Component {
                     <Grid.Column>
                         <AppIcon icon='zahlenspiel.png' link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars' />
                         <AppLink name={strings.numbersgame} link='https://play.google.com/store/apps/details?id=com.kila.zahlenspielpro.lars' />
-                    </Grid.Column>
-                    <Grid.Column>
-                        <AppIcon icon='notifyme.png' link='https://play.google.com/store/apps/details?id=com.kila.addnotification.lars' />
-                        <AppLink name='Notify me' link='https://play.google.com/store/apps/details?id=com.kila.addnotification.lars' />
                     </Grid.Column>
                 </Grid>
                 <Divider />

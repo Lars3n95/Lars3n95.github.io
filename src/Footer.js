@@ -10,6 +10,7 @@ let strings = new LocalizedStrings({
     en: {
         about: "About",
         abouttext: "The following information (Impressum) is required under German law.",
+        no_packages: "No packages or parcels - refusal of acceptance!",
         purchasesheader: "",
         purchasetext: "",
         privacypolicyheader: "Privacy Policy (from 19.11.2023)",
@@ -88,6 +89,7 @@ The Privacy Policy may change from time to time during the futures services upda
     de: {
         about: "Impressum",
         abouttext: "Angaben gemäß §5 TMG",
+        no_packages: "Keine Pakete oder Päckchen - Annahme wird verweigert!",
         purchasesheader: "Informationen zu (In-)App-Verkäufen",
         purchasetext: "Gemäß § 19 UStG wird vom Anbieter keine Umsatzsteuer berechnet. Der Händler (App Store) kann jedoch unabhängig davon Umsatzsteuer berechnen und abführen.",
         privacypolicyheader: "Datenschutzerklärung (Stand 19.11.2023)",
@@ -204,7 +206,9 @@ class Footer extends Component {
                     <Modal.Header>{strings.privacypolicyheader}</Modal.Header>
                     <Modal.Content>
                         <Modal.Description>
-                            <Image src={require('./resources/impressum.png')} />
+                            <Image src={require('./resources/impressum_address.png')} size="medium" />
+                            <div>{strings.no_packages}</div>
+                            <Image src={require('./resources/impressum_email.png')} size="medium" />
                             <div dangerouslySetInnerHTML={{ __html: strings.privacypolicy }}></div>
                         </Modal.Description>
                     </Modal.Content >
@@ -216,7 +220,9 @@ class Footer extends Component {
                             <Modal.Content>
                                 <Modal.Description>
                                     <p>{strings.abouttext}</p>
-                                    <Image src={require('./resources/impressum.png')} />
+                                    <Image src={require('./resources/impressum_address.png')} size="medium" />
+                                    <div>{strings.no_packages}</div>
+                                    <Image src={require('./resources/impressum_email.png')} size="medium" />
                                 </Modal.Description>
                             </Modal.Content>
                         </Modal>
@@ -226,7 +232,9 @@ class Footer extends Component {
                             <Modal.Header>{strings.privacypolicyheader}</Modal.Header>
                             <Modal.Content>
                                 <Modal.Description>
-                                    <Image src={require('./resources/impressum.png')} />
+                                    <Image src={require('./resources/impressum_address.png')} size="medium" />
+                                    <div>{strings.no_packages}</div>
+                                    <Image src={require('./resources/impressum_email.png')} size="medium" />
                                     <div dangerouslySetInnerHTML={{ __html: strings.privacypolicy }}></div>
                                 </Modal.Description>
                             </Modal.Content >
